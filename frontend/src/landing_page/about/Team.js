@@ -1,0 +1,8 @@
+function Team() {
+    return ( <>
+        <h1>Our Team</h1>
+        <p>Meet the talented individuals behind our success.</p>
+    </> );
+}
+
+export default Team;
