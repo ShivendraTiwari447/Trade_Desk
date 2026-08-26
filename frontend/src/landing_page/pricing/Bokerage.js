@@ -118,7 +118,7 @@ function Brokerage() {
         </p>
 
         <button className="btn btn-primary">
-          View complete pricing
+          View complete pricing..
         </button>
       </section>
 
