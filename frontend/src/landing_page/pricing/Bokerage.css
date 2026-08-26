@@ -1,0 +1,118 @@
+.brokerage-page {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+/* Hero */
+
+.brokerage-hero {
+  padding: 50px 20px;
+}
+
+.brokerage-hero h1 {
+  font-size: 44px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.brokerage-subtitle {
+  color: #666;
+  font-size: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+
+/* Cards */
+
+.brokerage-cards {
+  margin-top: 50px;
+}
+
+.brokerage-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.brokerage-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.brokerage-card .card-body {
+  padding: 40px 30px;
+}
+
+.brokerage-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background-color: #f5f8ff;
+
+  color: #387ed1;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.brokerage-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.brokerage-card p {
+  color: #666;
+  line-height: 1.7;
+  min-height: 80px;
+}
+
+.brokerage-card .btn {
+  margin-top: 15px;
+}
+
+
+/* Bottom section */
+
+.brokerage-note {
+  margin-top: 80px;
+  padding: 50px 20px;
+}
+
+.brokerage-note h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.brokerage-note p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .brokerage-page {
+    padding-top: 30px;
+  }
+
+  .brokerage-hero h1 {
+    font-size: 34px;
+  }
+
+  .brokerage-subtitle {
+    font-size: 17px;
+  }
+
+  .brokerage-card .card-body {
+    padding: 30px 20px;
+  }
+
+}
