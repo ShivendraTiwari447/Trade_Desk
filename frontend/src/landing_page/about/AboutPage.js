@@ -1,28 +1,23 @@
 import React from "react";
-
-import Navbar from "../Navbar";
-import Footer from "../Footer";
 import Hero from "./Hero";
 import Team from "./Team";
 
 function AboutPage() {
   return (
     <>
-      
-
       <div
         style={{
-          minHeight: "70vh",
-          padding: "100px 7%",
+          padding: "45px 7% 35px",
           textAlign: "center",
           fontFamily: "Arial, sans-serif",
         }}
       >
         <h1
           style={{
-            fontSize: "42px",
+            fontSize: "40px",
             fontWeight: "500",
-            marginBottom: "20px",
+            color: "#424242",
+            marginBottom: "12px",
           }}
         >
           About Us
@@ -30,8 +25,9 @@ function AboutPage() {
 
         <p
           style={{
-            fontSize: "18px",
+            fontSize: "17px",
             color: "#666",
+            margin: "0",
           }}
         >
           Welcome to our company!

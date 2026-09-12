@@ -15,7 +15,7 @@ function Navbar() {
         fontFamily: "Arial, sans-serif",
       }}
     >
-      {/* Logo */}
+      {/* Logo - Click to go Home */}
       <Link to="/">
         <img
           src="https://zerodha.com/static/images/logo.svg"
@@ -35,8 +35,8 @@ function Navbar() {
           gap: "35px",
         }}
       >
-        <Link to="/" style={linkStyle}>
-          Home
+        <Link to="/signup" style={linkStyle}>
+          Signup
         </Link>
 
         <Link to="/about" style={linkStyle}>
@@ -51,15 +51,11 @@ function Navbar() {
           Pricing
         </Link>
 
-        <Link to="/education" style={linkStyle}>
-          Education
+        <Link to="/support" style={linkStyle}>
+          Support
         </Link>
 
-        <Link to="/signup" style={linkStyle}>
-          Signup
-        </Link>
-
-        {/* Three horizontal lines */}
+        {/* Menu */}
         <div
           style={{
             width: "25px",
